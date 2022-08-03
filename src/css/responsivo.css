@@ -1,0 +1,29 @@
+@media (max-width: 420px) {
+    .pokemon-slider {
+        background-color: aqua;
+        padding:  0 10px;
+        gap: 10px;
+    }
+    .btn-seta {
+        width: 10px;
+        height: 10px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista-pokemons {
+        height: 480px;
+    }
+    .cartao .imagem-pokemon {
+        max-height: 100px;
+    }
+    .cartao .informacoes .nome {
+        max-width: 80%;
+        font-size: 18px;
+    }
+    .cartao .informacoes .vida {
+        font-size: 14px;
+    }
+}
